@@ -64,8 +64,21 @@
 - **_intro_**
 
   - intro
+
+    - Python is a **_high-level_**, general-purpose programming language (**_GPL_**).
+    - Its design philosophy emphasizes code readability with the use of significant indentation.
+
   - used for ?
+    - web development (server-side),
+    - software development,
+    - mathematics,
+    - system scripting.
   - what can python do?
+    - Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+    - Python has a simple syntax similar to the English language.
+    - Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
+    - Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
+    - Python can be treated in a procedural way, an object-oriented way or a functional way.
   - why python ?
 
 - **_syntax_**
@@ -162,3 +175,28 @@
   - Dictionary
   - Tuple
   - Set
+
+- **_list intro_**
+
+  - `list[0]` , `list[-1]`
+  - range of list `list[2:5] list[:3] list[2:]`
+  - check if `if "apple" in list`
+  - change list `list[1] = "some"`
+  - change range of list `list[1:2] = ["some","do"]`
+  - insert `list.insert(2,"some")`
+  - append `list.append("end")`
+  - extend `listOne.extend(listTwo)`
+  - remove `list.remove("some")`
+
+- **_dictionary intro_**
+
+  - syntax :
+
+  ```
+  hero = {
+    "firstName" : "Mostafa",
+    "lastName" : "Ahmadi Roshan",
+    "age":32,
+    "martyrdomDate":"1390-10-21"
+  }
+  ```
