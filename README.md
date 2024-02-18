@@ -16,8 +16,7 @@
 - dictionary intro
 - operators
 - if-else intro
-- while loops intro
-- break / continue
+- while loops intro : break / continue
 
 **Lecture 2**
 
@@ -199,4 +198,105 @@
     "age":32,
     "martyrdomDate":"1390-10-21"
   }
+  ```
+
+  - items : `hero['firstName'] , hero.get('firstName')`
+  - dict are changeable & duplicates not allowed
+  - length : `len(hero)`
+  - constructor :
+
+  ```
+  hero = dict(name="mostafa",age=32)
+  ```
+
+  - get keys : `hero.keys()`
+  - get values : `hero.values()`
+  - get items : `hero.items()`
+  - check in keys : `print("age" in hero) `
+  - change : `hero['firstName'] = "Qasem"`
+  - update : `hero.update({"lastName":"Soleimani"})`
+  - add : `hero["birthDate"]="17-06-1358"`
+  - remove : `hero.pop("birthDate") , del hero["birthDate"]`
+  - clear : `hero.clear()`
+
+- ## **_operators_**
+
+  - Operators are used to perform operations on variables and values.
+  - types :
+    - Arithmetic operators : `+ , - , * , / , % , ** , // `
+    - Assignment operators : `= , += , -= , *= ,...`
+    - Comparison operators : `== , != , > , < , >= ,<=`
+    - Logical operators : `and , or , not : not(x>5 and x != 7)`
+    - Identity operators : `is , is not`
+    - Membership operators : `in , not in`
+    - Bitwise operators : `& , | , ^ , ~ ... `
+
+- ## **_if-else intro_**
+
+  - syntax :
+
+  ```
+  if b > a:
+    print("b is greater than a")
+  ```
+
+  - indentation :
+
+  ```
+  if b>a:
+  print('...')
+  ```
+
+  - else :
+
+  ```
+  if a > b:
+    print("a >= b")
+  else :
+    print("a < b")
+  ```
+
+- shorthand ifelse :
+  `print("a>=b") if a>b else print("a<b")`
+- ## **_while loops intro_**
+
+  - syntax :
+
+  ```
+  i = 0
+  while i < 6:
+    print(i)
+    i += 1
+  ```
+
+  - else :
+
+  ```
+  i = 1
+  while i < 6:
+    print(i)
+    i += 1
+  else:
+    print("i is no longer less than 6")
+  ```
+
+  - break :
+
+  ```
+  i = 1
+  while i < 6:
+    print(i)
+    if i == 3:
+      break
+    i += 1
+  ```
+
+  - continue:
+
+  ```i = 0
+  while i < 6:
+    i += 1
+    if i == 3:
+      continue
+    print(i)
   ```
